@@ -17,7 +17,8 @@ code compatible with the vendor’s provided API.
 
 Current Code with the Xpay’s API
     
-<div align="center">![alt img](images/screenshot1.png)</div>
+<div align="center"><img src="images/screenshot1.png"></div>
+![alt img](images/screenshot1.png)
 
 Now, the current code interface is not compatible with the new vendor’s interface.
 
