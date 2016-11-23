@@ -18,11 +18,10 @@ code compatible with the vendor’s provided API.
 Current Code with the Xpay’s API
     
 <div align="center"><img src="images/screenshot1.png"></div>
-![alt img](images/screenshot1.png)
 
 Now, the current code interface is not compatible with the new vendor’s interface.
 
-<div align="center">![alt img](images/screenshot2.png)</div>
+<div align="center"><img src="images/screenshot2.png"></div>
 
 ## 2.2 An Adapter to rescue
 What Max needs here is an Adapter which can sit in between the code and the vendor’s API, and can allow the process to flow.
@@ -45,7 +44,7 @@ An adapter uses composition to store the object it is supposed to adapt, and whe
 those calls into something the adapted object can understand and passes the calls on to the adapted object. The code that calls the
 adapter never needs to know that it’s not dealing with the kind of object it thinks it is, but an adapted object instead.
 
-<div align="center">![alt img](images/screenshot3.png)</div>
+<div align="center"><img src="images/screenshot3.png"></div>
 
 Now, lets us see how it’s going to solve the Max’s problem.
 
@@ -89,7 +88,7 @@ interface is implemented in the code which is used to instantiate an object of t
 API.
 
 The following class defines the implementation to the Xpay interface.
-~~~java
+```java
 package com.zanxus.javacodegeeks.patterns.adapterpattern.site;
 
 import com.zanxus.javacodegeeks.patterns.adapterpattern.xpay.Xpay;
@@ -173,7 +172,7 @@ public class XpayImpl implements Xpay {
         this.amount = amount;
     }
 }
-~~~
+```
 New vendor’s key interface looks like this:
 ~~~java
 package com.zanxus.javacodegeeks.patterns.adapterpattern.payd;
@@ -364,7 +363,7 @@ PayD, but internally it wraps an Xpay type of object.
 So, in the Max’s project all we need to implement the vendor’s API in the code and pass this adapter to the vendor’s method to
 make the payment work. We do not need to change anything in the existing code.
 
-<div align="center">![alt img](images/screenshot4.png)</div>
+<div align="center"><img src="images/screenshot4.png"></div>
 
 ## 2.4 Class Adapter
 There are two types of adapters, the object adapter, and the class adapter. So far, we have seen the example of the object adapter
@@ -375,7 +374,7 @@ mind and may implement it in one of your favorite Object Oriented Language like 
 To implement a class adapter, an adapter would inherit publicly from Target and privately from Adaptee. As the result, adapter
 would be a subtype of Target, but not for Adaptee.
 
-<div align="center">![alt img](images/screenshot5.png)</div>
+<div align="center"><img src="images/screenshot5.png"></div>
 
 ## 2.5 When to use Adapter Pattern
 The Adapter pattern should be used when:
