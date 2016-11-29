@@ -291,7 +291,7 @@ The above code will result to the following output:
 </html>
 ```
 
-In the above example, first we have created a parent tag (\\<html\\>) then we add a child to it, which is another of composite type
+In the above example, first we have created a parent tag (&lt;html&gt;) then we add a child to it, which is another of composite type
 (<body>), and this object contains two children (<P>).
 
 Please note that, the above structure represents as a part-whole hierarchy and the call to generateHtml() method on the
