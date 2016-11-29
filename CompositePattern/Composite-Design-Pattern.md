@@ -52,7 +52,7 @@ supports. Leaf also inherits methods, which don’t necessarily make a lot of se
 
 The Client manipulates objects in the composition through the Component interface.
 
-# 4.3   Example of Composite Pattern
+## 4.3   Example of Composite Pattern
 The Composite pattern can be implemented anywhere you have the hierarchical nature of the system or a subsystem and you
 want to treat individual objects and compositions of objects uniformly. A File System, an XML, an Html, or a hierarchy of an
 office (starting from the president to employees) can be implemented using the Composite Pattern.
@@ -291,7 +291,7 @@ The above code will result to the following output:
 </html>
 ```
 
-In the above example, first we have created a parent tag (<html>) then we add a child to it, which is another of composite type
+In the above example, first we have created a parent tag (\\<html\\>) then we add a child to it, which is another of composite type
 (<body>), and this object contains two children (<P>).
 
 Please note that, the above structure represents as a part-whole hierarchy and the call to generateHtml() method on the
