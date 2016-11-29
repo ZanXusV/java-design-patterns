@@ -3,3 +3,4 @@ Java-Design-Patterns.iml
 .idea
 out
 AdapterPattern/AdapterPattern.iml
+CompositePattern/CompositePattern.iml
