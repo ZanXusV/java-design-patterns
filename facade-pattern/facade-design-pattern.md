@@ -46,7 +46,7 @@ interface to subsystem interfaces. Clients that use the facade don’t have to a
 Please note that, a Facade same as an Adapter can wrap multiple classes, but a facade is used to an interface to simplify the use
 of the complex interface, whereas, an adapter is used to convert the interface to an interface the client expects.
 
-<div align="center"><img src="images/composite1.png"></div>
+<div align="center"><img src="images/facade1.png"></div>
 
 ## 3   Solution to the problem
 
