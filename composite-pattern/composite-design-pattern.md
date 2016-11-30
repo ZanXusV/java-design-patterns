@@ -1,5 +1,5 @@
 # Composite Design Pattern
-## 4.1   Introduction
+## 1   Introduction
 In this lesson, we will talk about a very interesting design pattern, the Composite Pattern. The English meaning of the word
 Composite is something that is made up of complicated and related parts. The composite means “putting together” and this is
 what this design pattern is all about.
@@ -15,7 +15,7 @@ There can be lots of practical examples of the Composite Pattern. A file directo
 parser all are well managed composites and all can easily be represented using the Composite Pattern. But before digging into
 the details of an example, let’s see some more details regarding the Composite Pattern.
 
-## 4.2   What is the Composite Pattern
+## 2   What is the Composite Pattern
 The formal definition of the Composite Pattern says that it allows you to compose objects into tree structures to represent part-
 whole hierarchies. Composite lets clients to treat individual objects and compositions of objects uniformly.
 
@@ -52,7 +52,7 @@ supports. Leaf also inherits methods, which don’t necessarily make a lot of se
 
 The Client manipulates objects in the composition through the Component interface.
 
-## 4.3   Example of Composite Pattern
+## 3   Example of Composite Pattern
 The Composite pattern can be implemented anywhere you have the hierarchical nature of the system or a subsystem and you
 want to treat individual objects and compositions of objects uniformly. A File System, an XML, an Html, or a hierarchy of an
 office (starting from the president to employees) can be implemented using the Composite Pattern.
@@ -298,7 +298,7 @@ Please note that, the above structure represents as a part-whole hierarchy and t
 parent tag allows the client to treat the compositions of objects uniformly. As it generates the html of the object and of all its
 children.
 
-## 4.4   When to use Composite Pattern
+## 4   When to use Composite Pattern
 * When you want to represent part-whole hierarchies of objects.
 * When you want clients to be able to ignore the difference between compositions of objects and individual objects. Clients will
  treat all objects in the composite structure uniformly.

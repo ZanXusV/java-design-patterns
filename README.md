@@ -2,7 +2,7 @@
 
 # Introduction to Design Patterns
 
-## 1.1 Introduction
+## 1 Introduction
 In the late 70’s, an architect named Christopher Alexander started the concept of patterns. Alexander’s work focused on finding
 patterns of solutions to particular sets of forces within particular contexts.
 
@@ -26,7 +26,7 @@ Later, we will also see how patterns are organized, and categorized into differe
 In the next several lessons, we will discuss about the different design patterns one by one. We will go into depth and analyze
 each and every design pattern, and will also see how to implement them in Java.
 
-## 1.2 What are Design Patterns
+## 2 What are Design Patterns
 As an Object Oriented developer, we may think that our code contains all the benefits provided by the Object Oriented language.
 The code we have written is flexible enough that we can make any changes to it with less or any pain. Our code is re-usable so
 that we can re-use it anywhere without any trouble. We can maintain our code easily and any changes to a part of the code will
@@ -70,7 +70,7 @@ They may address language and implementation issues as well. Since reuse is ofte
 consequences of a pattern include its impact on a system’s flexibility, extensibility, or portability. Listing these consequences
 explicitly helps you understand and evaluate them.
 
-## 1.3 Why use them
+## 3 Why use them
 **Flexibility**: Using design patterns your code becomes flexible. It helps to provide the correct level of abstraction due to which
 objects become loosely coupled to each other which makes your code easy to change.
 
@@ -90,7 +90,7 @@ you choose design alternatives that make a system reusable and avoid alternative
 can even improve the documentation and maintenance of existing systems by furnishing an explicit specification of class and
 object interactions and their underlying intent. Put simply, design patterns help a designer get a design "right" faster.
 
-## 1.4 How to select and use one
+## 4 How to select and use one
 There are a number of design patterns to choose from; to choose one, you must have good knowledge of each one of them. There
 are many design patterns which look very similar to one another. They solve almost a similar type of design problem and also
 have similar implementation. One must have a very deep understanding of them in order to implement the correct design pattern
@@ -114,13 +114,13 @@ A design pattern can be used to solve more than one design problem, and one desi
 design patterns. There could be plenty of design problems and solutions for them, but, to choose the pattern which fits exactly is
 depends on your knowledge and understanding about the design patterns. It also depends on the code you already have in place.
 
-## 1.5 Categorization of patterns
+## 5 Categorization of patterns
 Design patterns can be categorized in the following categories:
 * Creational patterns
 * Structural patterns
 * Behavior patterns
 
-### 1.5.1 Creational patterns
+### 5.1 Creational patterns
 Creational design patterns are used to design the instantiation process of objects. The creational pattern uses the inheritance to
 vary the object creation.
 
@@ -132,7 +132,7 @@ gets created, who creates it, how it gets created, and when.
 There can be some cases when two or more patterns looks fit as a solution to a problem. At other times, the two patterns
 complement each other for example; Builder can be used with other pattern to implements which components to get built.
 
-### 1.5.2 Structural patterns
+### 5.2 Structural patterns
 Structural patterns are concerned with how classes and objects are composed to form larger structures. Structural class patterns
 use inheritance to compose interfaces or implementations. As a simple example, consider how multiple inheritance mixes two or
 more classes into one. The result is a class that combines the properties of its parent classes. This pattern is particularly useful
@@ -142,7 +142,7 @@ Rather than composing interfaces or implementations, structural object patterns 
 functionality. The added flexibility of object composition comes from the ability to change the composition at run-time, which
 is impossible with static class composition.
 
-### 1.5.3 Behavior patterns
+### 5.3 Behavior patterns
 Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns
 describe not just patterns of objects or classes but also the patterns of communication between them. These patterns characterize
 complex control flow that’s difficult to follow at run-time. They shift your focus away from flow of control to let you concentrate

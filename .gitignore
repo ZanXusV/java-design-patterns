@@ -1,6 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
-Java-Design-Patterns.iml
+java-design-patterns.iml
 .idea
 out
+adapter-pattern/adapter-pattern.iml
+brige-pattern/brige-pattern.iml
+composite-pattern/composite-pattern.iml
 AdapterPattern/AdapterPattern.iml
 CompositePattern/CompositePattern.iml

@@ -1,6 +1,6 @@
 # Adapter Design Pattern
 
-## 2.1 Adapter Pattern
+## 1 Adapter Pattern
 A software developer, Max, has worked on an e-commerce website. The website allows users to shop and pay online. The site
 is integrated with a 3rd party payment gateway, through which users can pay their bills using their credit card. Everything was
 going well, until his manager called him for a change in the project.
@@ -23,7 +23,7 @@ Now, the current code interface is not compatible with the new vendor’s interf
 
 <div align="center"><img src="images/adapter2.png"></div>
 
-## 2.2 An Adapter to rescue
+## 2 An Adapter to rescue
 What Max needs here is an Adapter which can sit in between the code and the vendor’s API, and can allow the process to flow.
 But before the solution, let us first see what an adapter is, and how it works.
 
@@ -48,7 +48,7 @@ adapter never needs to know that it’s not dealing with the kind of object it t
 
 Now, lets us see how it’s going to solve the Max’s problem.
 
-## 2.3 Solution to the problem
+## 3 Solution to the problem
 Currently, the code is exposed to the Xpay interface. The interface looks something like this:
 ~~~java
 package com.zanxus.javacodegeeks.patterns.adapterpattern.xpay;
@@ -365,7 +365,7 @@ make the payment work. We do not need to change anything in the existing code.
 
 <div align="center"><img src="images/adapter4.png"></div>
 
-## 2.4 Class Adapter
+## 4 Class Adapter
 There are two types of adapters, the object adapter, and the class adapter. So far, we have seen the example of the object adapter
 which use object’s composition, whereas, the class adapter relies on multiple inheritance to adapt one interface to another. As
 Java does not support multiple inheritance, we cannot show you an example of multiple inheritance, but you can keep this in
@@ -376,7 +376,7 @@ would be a subtype of Target, but not for Adaptee.
 
 <div align="center"><img src="images/adapter5.png"></div>
 
-## 2.5 When to use Adapter Pattern
+## 5 When to use Adapter Pattern
 The Adapter pattern should be used when:
 * There is an existing class, and its interface does not match the one you need.
 * You want to create a reusable class that cooperates with unrelated or unforeseen classes, that is, classes that don’t necessarily
