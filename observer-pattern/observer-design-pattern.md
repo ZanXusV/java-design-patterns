@@ -458,8 +458,9 @@ Unsubscribed successfully.
 The above class creates a subject and two observers. The subscribe method of the observer adds itself to the subject
 observers list. Then setDesc changes the state of the subject which call the setChanged method to set the change flag to
 true, and notifies the observers. As a result, observer’s update method is called which internally class the display method to
-display the result. Later, one of the observers gets `unsubscribe`d, i.e. it is removed from the observer’s list. Due to which later
+display the result. Later, one of the observers gets unsubscribed, i.e. it is removed from the observer’s list. Due to which later
 commentaries were not updated to it.
+
 Java provides built-in facility for the Observer Pattern, but it comes with its own drawbacks. The Observable is a class,
 you have to subclass it. That means you can’t add on the Observable behavior to an existing class that already extends another
 superclass. This limits the reuse potential. You can’t even create your own implementation that plays well with Java’s built-in
