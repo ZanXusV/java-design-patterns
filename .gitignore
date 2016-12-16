@@ -1,9 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
 java-design-patterns.iml
+/*/*.iml
 .idea
 out
-
-/facade-pattern/facade-pattern.iml
-
-/bridge-pattern/bridge-pattern.iml
-/singleton-pattern/singleton-pattern.iml
